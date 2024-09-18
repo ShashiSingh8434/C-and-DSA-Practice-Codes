@@ -17,13 +17,6 @@ int main(){
         }
         row--;
 
-        //printing reversed 
-        //         1
-        //        232
-        //       34543
-        // 
-        // 
-        // 
         for(int k=0; k<i; k++){
             row--;
             cout<< row << " " ; 
