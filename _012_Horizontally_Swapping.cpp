@@ -48,10 +48,27 @@ int main(){
     cout <<"Enter the number to swap: ";
     cin >> num ;
     int swap;
-    if (checkOddEven(num) == "even"){
-        swap = evenSwapping(num);
-    }else{
-        swap = oddSwapping(num);
+
+    if(num<0){
+        int realNum = num;
+        num = num+(-2*num);
+
+        if (checkOddEven(num) == "even"){
+            swap = evenSwapping(num);
+        }
+        else{
+            swap = oddSwapping(num);
+        }
+
+        swap = swap - (2*swap);
+    }
+    else{
+        if (checkOddEven(num) == "even"){
+            swap = evenSwapping(num);
+        }
+        else{
+            swap = oddSwapping(num);
+        }
     }
 
     cout<<"Swapped : "<<swap<<endl;
