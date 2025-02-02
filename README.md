@@ -19,7 +19,7 @@ Before you begin, make sure you have the following installed:
 2. Clone this repository using:  
 
    ```sh
-   git clone https://[github.com/ShashiSingh8434/Cpp-and-DSA-Practice-Codes.git]
+   git clone https://github.com/ShashiSingh8434/Cpp-and-DSA-Practice-Codes.git
    ```
 3. Open the project in **VS Code** and start practicing!  
 
