@@ -12,7 +12,7 @@ int main(){
 
     // int max = INT32_MIN;
 
-    // for(int a : arr){
+    // for(auto a : arr){
     //     if(max<a){
     //         max = a;
     //     }
