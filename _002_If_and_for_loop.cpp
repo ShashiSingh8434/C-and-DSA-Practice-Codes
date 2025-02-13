@@ -16,7 +16,5 @@ int main(){
         cout<<n<<" X "<<i<<" = "<<n*i<<endl;
     }
 
-    
-
     return 0;
 }
