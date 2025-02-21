@@ -36,6 +36,6 @@ int main(){
     cin>>str;
 
     cout<< (validPallindrome(str));
-    
+
     return 0;
 }
