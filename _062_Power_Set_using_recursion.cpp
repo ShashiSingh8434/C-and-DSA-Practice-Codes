@@ -2,8 +2,9 @@
 using namespace std;
 
 // very important
+// inclusion exclusion pattern
 
-void generatePowerSet(string str, int i = 0, string ans) {
+void generatePowerSet(string str, int i = 0, string ans = "") {
     int n = str.length();
 
     if (i == n) {

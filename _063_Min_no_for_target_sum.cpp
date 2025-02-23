@@ -4,6 +4,7 @@
 using namespace std;
 
 // very very important
+// recursion with for loop for each element of a set 
 
 int minNum(vector<int>& arr, int target){
     if(target==0){
